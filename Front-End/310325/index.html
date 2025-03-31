@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="formClass">
+        <form>
+            <label for="name" class="labelInput">
+                Nome:
+                <input type="text" id="name" placeholder="Digite seu nome" class="inputText">
+            </label>
+            <label for="pass" class="labelInput">
+                Senha:
+                <input type="password" id="pass" placeholder="Digite sua senha" class="inputText">
+            </label>
+            <label for="selecEstado">
+                Qual seu estado:
+                <Select id="selecEstado">
+                    <option value="sp">São Paulo</option>
+                    <option value="rj">Rio de Janeiro</option>
+                </Select>
+            </label>
+            <label for="textArea">
+                Dê sua opinião sobre nosso serviço:
+                <textarea name="" id="textArea"></textarea>
+            </label>
+            
+            <label for="accept" class="labelInputCheck">
+                <input type="checkbox" id="accept">
+                Deseja aceitar os termos de serviço?
+            </label>
+            
+
+
+            <button>Enviar</button>
+            
+        </form>
+    </div>
+
+</body>
+</html>

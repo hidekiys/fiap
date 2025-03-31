@@ -1,0 +1,60 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightslategrey;
+}
+.formClass {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+form{
+    width: 20em;
+    height: fit-content;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-items: center;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+.labelInput {
+    width: fit-content;
+    font-size: large;
+}
+.inputText {
+    padding: 6px;
+    border-radius: 5px;
+    border: 0.5px solid lightgray;
+
+}
+.inputText:focus-visible {
+    outline: black solid 1px;
+}
+button {
+    padding: 10px 30px 10px 30px;
+    border: 0.5px solid lightgray;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+button:hover{
+    cursor:pointer;
+    background-color: lightgray;
+}
+select {
+    padding: 6px;
+    border-radius: 5px;
+    border: 0.5px solid lightgray;
+}
+#textArea{
+    margin-top: 5px;
+    padding-bottom: 3em;
+    width: 100%;
+    resize:none;
+    border-radius: 5px;
+    border: 0.5px solid lightgray;
+}
+#textArea:focus {
+    outline: black solid 1px;
+}
