@@ -1,0 +1,88 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 2%;
+    background-color: white;
+    width: full;
+    box-shadow: rgba(0, 0, 0, 0.5) 2px 2px;
+    top: 0;
+    position:sticky;
+    display: flex;
+     justify-content: space-between;
+     padding: 10px 20px 10px 20px;
+}
+.logo{
+    height: 30px;
+}
+.links{
+    display: flex;
+    row-gap: 20px;
+    align-items: center;
+}
+li{
+    display: flex;
+    align-items: center;
+    list-style:none;
+}
+.link{
+    padding: 5px;
+    font-weight: bold;
+    color: #333;
+    font-size: medium;
+    text-decoration: none;
+}
+
+.titulo{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+}
+.fundo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40em;
+    background-size: cover;
+    background-image: url('https://www.fiap.com.br/imgs/institucional/photos-gallery/large/02.webp');
+}
+.cards{
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px 50px;
+    
+}
+.card{
+    color: #222;
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    transition:all;
+}
+.card:hover{
+    cursor: pointer;
+    scale: 1.1;
+
+}
+.img_card{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+}
+.card_azul{
+    background-color: lightskyblue;
+}
+.card_vermelho{
+    background-color: lightcoral;
+}
+.card_amarelo{
+    background-color: rgb(255, 255, 126);
+}
